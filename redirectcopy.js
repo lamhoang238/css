@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/> Bản Quyền Thuộc Công Ty Lâm Hoàng Wallpaper - Cấm Copy : <a href='http://dangiaytuong.vn'>http://dangiaytuong.vn"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/> Bản Quyền Thuộc Công Ty Lâm Hoàng Wallpaper : <a href='http://dangiaytuong.vn'>http://dangiaytuong.vn"+document.location.pathname+"</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
